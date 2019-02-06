@@ -818,6 +818,16 @@ h1, h2, h3 {
     margin: 0;
   }
 
+  .skill-box__num::before {
+    font-size: 24px;
+  }
+
+  .skill-box__num::after {
+    width: 26px;
+    height: 5px;
+    border-radius: 2px;
+}
+
   .skill-box__picture, .skill-box__content {
     width: 50%;
   }
