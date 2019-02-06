@@ -628,7 +628,6 @@ h1, h2, h3 {
   .download {
     padding-top: 125px;
     background-image: url(../images/download-img_768.png);
-    
   }
 
   .surface-logo {
@@ -676,13 +675,10 @@ h1, h2, h3 {
     font-size: 90px;
   }
 
- .wrap {
-   max-width: 1920px;
- }
-
   .header .wrap{
     margin-left: 10%;
     margin-right: 10%;
+    max-width: 1920px;
   }
 
   .logo {
@@ -818,6 +814,10 @@ h1, h2, h3 {
     max-width: 1920px;
   }
 
+  .skill-box .wrap {
+    margin: 0;
+  }
+
   .skill-box__picture, .skill-box__content {
     width: 50%;
   }
@@ -825,5 +825,87 @@ h1, h2, h3 {
   .skill-box:nth-child(even) .skill-box__picture {
     order: 1;
   }
+  .skill-box__title {
+    font-size: 80px;
+  }
 
+  .skill-box__text {
+    font-size: 24px;
+  }
+
+  .skill-box:nth-child(odd) .skill-box__content {
+    padding: 233px 180px 0px 120px;
+  }
+
+  .skill-box:nth-child(even) .skill-box__content {
+    padding: 233px 90px 0px 188px;
+  }
+
+  .skill-box:nth-child(odd) .skill-box__text {
+    padding-top: 88px;
+  }
+
+  .skill-box:nth-child(even) .skill-box__text {
+    padding-top: 48px;
+  }
+
+  .skill-box__num {
+    top: 212px;
+    width: 168px;
+    height: 155px;
+  }
+
+  .skill-box:nth-child(odd) .skill-box__num {
+    left: -84px;
+  }
+
+  .skill-box:nth-child(even) .skill-box__num {
+    right: -84px;
+  }
+  
+  .download {
+    padding-top: 229px;
+    padding-bottom: 53px;
+    background-image: url(../images/download-img_desktop.png);
+  }
+
+  .wrap__download-logo {
+    max-width: 866px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .surface-logo {
+    margin: 0;
+    width: 129px;
+    height: 137px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 16px;
+  }
+
+  .download-content {
+    margin: 0;
+    padding: 0 0 0 30px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .download-content__title {
+    font-size: 80px;
+    letter-spacing: 3px;
+  }
+
+  .download-content__text {
+    font-size: 30px;
+  }
+
+  .download__button-box {
+    padding-top: 150px;
+  }
+
+  .download__logo {
+    padding-top: 263px;
+  }
 }
