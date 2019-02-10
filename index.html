@@ -23,28 +23,40 @@
       </div>
 
       <div class="main-title">
-        <h1 class="main-title__title">be recruited</h1>
-
-        <p class="main-title__text">play college sports</p>
+        <h1 class="main-title__title">be recruited <span>play college sports</span></h1>
       </div>
 
       <div class="button-box header__button-box">        
-        <a class="button" href="#">
-          <p class="button__filling button__app-link">
-            download on the <br> <span>app store</span>
-          </p> 
-        </a>
+        <div class="button">
+          <a class="button__filling button__app-link" href="#">
+            download on the <span>app store</span>
+          </a>
+        </div>
 
-        <a class="button" href="#">
-          <p class="button__filling button__google-play-link">
-            get it on <br> <span>google play</span>
-          </p> 
-        </a> 
-      </div>
+        <div class="button" href="#">
+          <a class="button__filling button__google-play-link">
+            get it on <span>google play</span>
+          </a> 
+        </div>
     </div>
   </header>
 
   <section class="athlets">
+    <picture class="athlets__img">
+      <source
+        media="(max-width: 640px)"
+        srcset="images/footballer_192.png">
+      <source
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/footballer_497.png">
+      <source
+        media="(min-width: 961px)"
+        srcset="images/footballer_566.png">
+      <img
+        src="images/footballer_566.png"
+        alt="athlets img">
+    </picture>
+
     <h2 class="athlets__title wrap">athlets</h2>
     <div class="connection athlets__connection">
       <div class="wrap">
@@ -75,6 +87,21 @@
   </section>
 
   <section class="players">
+    <picture class="players__img">
+      <source
+        media="(max-width: 640px)"
+        srcset="images/basketballer_302.png">
+      <source
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/basketballer_436.png">
+      <source
+        media="(min-width: 961px)"
+        srcset="images/basketballer_991.png">
+      <img
+        src="images/basketballer_991.png"
+        alt="players img">
+    </picture>
+    
     <h2 class="players__title wrap">players</h2>
     <div class="connection players__connection">
       <div class="wrap">
@@ -206,18 +233,18 @@
     </div>
     
     <div class="button-box download__button-box wrap">        
-      <a class="button" href="#">
-        <p class="button__filling button__app-link">
-          download on the <br> <span>app store</span>
-        </p> 
-      </a>
+      <div class="button">
+          <a class="button__filling button__app-link" href="#">
+            download on the <span>app store</span>
+          </a>
+        </div>
 
-      <a class="button" href="#">
-        <p class="button__filling button__google-play-link">
-          get it on <br> <span>google play</span>
-        </p> 
-      </a> 
-    </div>
+        <div class="button" href="#">
+          <a class="button__filling button__google-play-link">
+            get it on <span>google play</span>
+          </a> 
+        </div>
+      </div>
 
     <div class="logo download__logo">
       <svg class="logo__icon" viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg">
